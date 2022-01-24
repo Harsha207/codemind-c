@@ -1,0 +1,16 @@
+
+#include<stdio.h>
+int main()
+{
+    int n,r,v,sum=0,product=1;
+    scanf("%d",&n);
+    while(n>0)
+    {
+        r=n%10;
+        sum=sum+r;
+        product=product*r;
+        n=n/10;
+    }
+    v=product-sum;
+    printf("%d",v);
+}
