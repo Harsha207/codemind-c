@@ -2,14 +2,14 @@
 #include<stdio.h>
 int main()
 {
-    int n,r,sum=0,product=1;
-    scanf("%d",&n);
-    while(n>0)
+    int num,r,sum=0,product=1;
+    scanf("%d",&num);
+    while(num>0)
     {
-        r=n%10;
+        r=num%10;
         sum=sum+r;
         product=product*r;
-        n=n/10;
+        num=num/10;
     }
     if(sum==product)
     {
