@@ -1,8 +1,7 @@
-
 #include<stdio.h>
 int main()
 {
-    int n,i,a[100],count=0;
+    int n,i,a[100];
     scanf("%d",&n);
     a[0]=0;
     a[1]=1;
@@ -15,4 +14,3 @@ int main()
         printf("%d ",a[i]);
     }
 }
-
