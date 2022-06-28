@@ -1,8 +1,7 @@
-
 #include<stdio.h>
 int main()
 {
-    int n,i,a[100],count=0;
+    int n,i,a[100],c=0;
     scanf("%d",&n);
     a[0]=0;
     a[1]=1;
@@ -10,14 +9,14 @@ int main()
     {
         a[i+1]=a[i]+a[i-1];
     }
-    for(i=0;i<100;i++)
+    for(i=1;i<100;i++)
     {
         if(a[i]==n)
         {
-            count ++;
+            c++;
         }
     }
-    if(count==0)
+    if(c==0)
     {
         printf("False");
     }
