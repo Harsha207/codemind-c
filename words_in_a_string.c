@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
+    int i,c=0;
     char str[100];
     scanf("%[^
 ]",str);
-    int i,count=0;
     for(i=0;str[i]!=NULL;i++)
     {
         if(str[i]==32)
         {
-            count++;
+            c++;
         }
     }
-    printf("%d",count+1);
+    printf("%d",c+1);
 }
