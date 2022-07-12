@@ -15,7 +15,7 @@ int main()
         t=t*10+sq%10;
         sq/=10;
     }
-    if(s==t)
+    if(t==s)
     {
         printf("True");
     }
