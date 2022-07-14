@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int x,y,r,c,co,n;
+    int x,y,c,r,co,n;
     scanf("%d%d",&x,&y);
     for(x;x<=y;x++)
     {
         n=x;
-        co=0;
         c=0;
+        co=0;
         while(n)
         {
             r=n%10;
