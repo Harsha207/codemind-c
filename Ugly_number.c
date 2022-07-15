@@ -4,7 +4,7 @@ int main()
     int n,temp,f=0;
     scanf("%d",&n);
     temp=n;
-    while(temp>1 || temp<1)
+    while(temp<1 || temp>1)
     {
         if(temp%2==0)
         {
